@@ -3,35 +3,30 @@
 <head>
     <meta charset="utf-8">
     <title>Lab</title>
-    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script> <!-- v6.5
-    <c.0 -->
+    <script src="https://d3js.org/d3.v6.min.js" charset="utf-8"></script> <!-- v6.5.0 -->
     <style type="text/css">
-    	
-    	div.bar {
-    		border: 1px black solid;
-    		padding: 10px;
-    		/*margin: 5px 10px 5px 10px;*/
-    		display: inline-block;
-    		width: 10px;
-    		height: 75px;
-    		background-color: pink;
+
+        .bar {
+            border: 1px black solid;
+            padding: 10px;
+            /*margin: 5px 10px 5px 10px;*/
+            display: inline-block;
+            width: 10px;
+            height: 75px;
+            fill: pink;
             vertical-align: bottom;
-    	}
+        }
 
-    	body {
-    		border: 1px purple solid;
-    		padding: 20px;
-    	}
-
+        body {
+          border: 1px purple solid;
+          padding: 20px;
+        }
     </style>
 </head>
 <body>
-
-
     <script type="text/javascript">
-      // Your beautiful D3 code will go here
 
-      var margin = { top: 20, right: 20, bottom: 30, left: 40 },
+        var margin = { top: 20, right: 20, bottom: 30, left: 40 },
             width = window.innerWidth*2/3,
             height = window.innerHeight*2/3,
             fontSize = 15;
@@ -92,7 +87,12 @@
                 })
                 .attr("y", height - fontSize / 2)
                 .attr("font-family", "sans-serif")
-                .attr("font-size", 0 + "px");
+                .attr("font-size", 0 + "px")
+                .attr("fill", function(d, i) {
+                  if( i % 2 == 1 ) {
+                      return "#ccffff";
+                  }
+                });;
 
             svg.append("g")
                 .attr("id","xaxis")
@@ -133,5 +133,5 @@
         });
 
     </script>
-</html>
-  
+    </body>
+  </html>
