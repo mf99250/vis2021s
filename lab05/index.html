@@ -40,7 +40,7 @@
             // set the ranges
             var x = d3.scaleBand()
                 .range([0, width])
-                .padding(0.1);
+                .padding(0.2);
             var y = d3.scaleLinear()
                 .range([height, 0]);
 
@@ -110,6 +110,11 @@
                 .duration(800)
                 .attr("y", function (d) { return y(d.Amount); })
                 .attr("height", function (d) { return height - y(d.Amount); })
+                .attr("fill", function(d, i) {
+                  if( i % 2 == 1 ) {
+                      return "#ccffff";
+                  }
+                });
 
 
             console.log(data);
