@@ -7,19 +7,7 @@
     <style type="text/css">
 
         .bar {
-            border: 1px black solid;
-            padding: 10px;
-            /*margin: 5px 10px 5px 10px;*/
-            display: inline-block;
-            width: 10px;
-            height: 75px;
             fill: pink;
-            vertical-align: bottom;
-        }
-
-        body {
-          border: 1px purple solid;
-          padding: 20px;
         }
     </style>
 </head>
@@ -52,7 +40,7 @@
             // set the ranges
             var x = d3.scaleBand()
                 .range([0, width])
-                .padding(0.5);
+                .padding(0.1);
             var y = d3.scaleLinear()
                 .range([height, 0]);
 
