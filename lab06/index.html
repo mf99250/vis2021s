@@ -102,7 +102,7 @@ var rect = groups.selectAll("rect")
   .attr("x", function(d) { return x(d.x); })
   .attr("y", function(d) { return y(d.y0 + d.y); })
   .attr("height", function(d) { return y(d.y0) - y(d.y0 + d.y); })
-  .attr("width", x.rangeBand())
+  .attr("width", x.rangeBand()-10)
   .on("mouseover", function() { tooltip.style("display", null); })
   .on("mouseout", function() { tooltip.style("display", "none"); })
   .on("mousemove", function(d) {
@@ -122,7 +122,7 @@ var legend = svg.selectAll(".legend")
  
 legend.append("rect")
   .attr("x", width - 18)
-  .attr("width", 8)
+  .attr("width", 18)
   .attr("height", 18)
   .style("fill", function(d, i) {return colors.slice().reverse()[i];});
  
