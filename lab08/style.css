@@ -1,0 +1,492 @@
+/* hsu */
+.line-hsu-1 {
+    clip-path: url(#hsu-1);
+  
+    stroke-dasharray: 70;
+    animation-name: draw-hsu-1;
+  }
+  @keyframes draw-hsu-1 {
+    0% {
+      stroke-dashoffset: 70;
+    }
+  
+    7% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-hsu-2 {
+    clip-path: url(#hsu-2);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-hsu-2;
+  }
+  @keyframes draw-hsu-2 {
+    0%,
+    7% {
+      stroke-dashoffset: 250;
+    }
+  
+    20% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-hsu-3 {
+    clip-path: url(#hsu-3);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-hsu-3;
+  }
+  @keyframes draw-hsu-3 {
+    0%,
+    20% {
+      stroke-dashoffset: 250;
+    }
+  
+    33% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-hsu-4 {
+    clip-path: url(#hsu-4);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-hsu-4;
+  }
+  @keyframes draw-hsu-4 {
+    0%,
+    33% {
+      stroke-dashoffset: 250;
+    }
+  
+    46% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-hsu-5 {
+    clip-path: url(#hsu-5);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-hsu-5;
+  }
+  @keyframes draw-hsu-5 {
+    0%,
+    46% {
+      stroke-dashoffset: 250;
+    }
+  
+    59% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-hsu-6 {
+    clip-path: url(#hsu-6);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-hsu-6;
+  }
+  @keyframes draw-hsu-6 {
+    0%,
+    59% {
+      stroke-dashoffset: 250;
+    }
+  
+    65% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-hsu-7 {
+    clip-path: url(#hsu-7);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-hsu-7;
+  }
+  @keyframes draw-hsu-7 {
+    0%,
+    65% {
+      stroke-dashoffset: 250;
+    }
+  
+    75% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .line-hsu-8 {
+    clip-path: url(#hsu-8);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-hsu-8;
+  }
+  @keyframes draw-hsu-8 {
+    0%,
+    75% {
+      stroke-dashoffset: 250;
+    }
+  
+    82% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-hsu-9 {
+    clip-path: url(#hsu-9);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-hsu-9;
+  }
+  @keyframes draw-hsu-9 {
+    0%,
+    82% {
+      stroke-dashoffset: 250;
+    }
+  
+    91% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-hsu-10 {
+    clip-path: url(#hsu-10);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-hsu-10;
+  }
+  @keyframes draw-hsu-10 {
+    0%,
+    91% {
+      stroke-dashoffset: 250;
+    }
+  
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  /* erh */
+  .line-erh-1 {
+    clip-path: url(#erh-1);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-erh-1;
+  }
+  @keyframes draw-erh-1 {
+    0% {
+      stroke-dashoffset: 250;
+    }
+  
+    15% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-erh-2 {
+    clip-path: url(#erh-2);
+  
+    stroke-dasharray: 300;
+    animation-name: draw-erh-2;
+  }
+  @keyframes draw-erh-2 {
+    0%,
+    15% {
+      stroke-dashoffset: 300;
+    }
+  
+    40% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-erh-3 {
+    clip-path: url(#erh-3);
+  
+    stroke-dasharray: 300;
+    animation-name: draw-erh-3;
+  }
+  @keyframes draw-erh-3 {
+    0%,
+    40% {
+      stroke-dashoffset: 300;
+    }
+  
+    75% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-erh-4 {
+    clip-path: url(#erh-4);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-erh-4;
+  }
+  @keyframes draw-erh-4 {
+    0%,
+    75% {
+      stroke-dashoffset: 250;
+    }
+  
+    85% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .line-erh-5 {
+    clip-path: url(#erh-5);
+  
+    stroke-dasharray: 250;
+    animation-name: draw-erh-5;
+  }
+  @keyframes draw-erh-5 {
+    0%,
+    85% {
+      stroke-dashoffset: 250;
+    }
+  
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+    /* man */
+    .line-man-1 {
+        clip-path: url(#man-1);
+      
+        stroke-dasharray: 70;
+        animation-name: draw-man-1;
+      }
+      @keyframes draw-erh-1 {
+        0% {
+          stroke-dashoffset: 70;
+        }
+      
+        7% {
+          stroke-dashoffset: 0;
+        }
+      }
+    
+      .line-man-2 {
+        clip-path: url(#man-2);
+      
+        stroke-dasharray: 70;
+        animation-name: draw-man-2;
+      }
+      @keyframes draw-man-2 {
+        0%,
+        7% {
+          stroke-dashoffset: 70;
+        }
+      
+        14% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-3 {
+        clip-path: url(#man-3);
+      
+        stroke-dasharray: 150;
+        animation-name: draw-man-3;
+      }
+      @keyframes draw-man-3 {
+        0%,
+        14% {
+          stroke-dashoffset: 150;
+        }
+      
+        24% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-4 {
+        clip-path: url(#man-4);
+      
+        stroke-dasharray: 70;
+        animation-name: draw-man-4;
+      }
+      @keyframes draw-man-4 {
+        0%,
+        24% {
+          stroke-dashoffset: 70;
+        }
+      
+        31% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-5 {
+        clip-path: url(#man-5);
+      
+        stroke-dasharray: 170;
+        animation-name: draw-man-5;
+      }
+      @keyframes draw-man-5 {
+        0%,
+        31% {
+          stroke-dashoffset: 170;
+        }
+      
+        45% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-6 {
+        clip-path: url(#man-6);
+      
+        stroke-dasharray: 150;
+        animation-name: draw-man-6;
+      }
+      @keyframes draw-man-6 {
+        0%,
+        45% {
+          stroke-dashoffset: 150;
+        }
+      
+        52% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-7 {
+        clip-path: url(#man-7);
+      
+        stroke-dasharray: 180;
+        animation-name: draw-man-7;
+      }
+      @keyframes draw-man-7 {
+        0%,
+        52% {
+          stroke-dashoffset: 180;
+        }
+      
+        60% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-8 {
+        clip-path: url(#man-8);
+      
+        stroke-dasharray: 70;
+        animation-name: draw-man-8;
+      }
+      @keyframes draw-man-8 {
+        0%,
+        60% {
+          stroke-dashoffset: 70;
+        }
+      
+        65% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-9 {
+        clip-path: url(#man-9);
+      
+        stroke-dasharray: 250;
+        animation-name: draw-man-9;
+      }
+      @keyframes draw-man-9 {
+        0%,
+        65% {
+          stroke-dashoffset: 250;
+        }
+      
+        75% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-10 {
+        clip-path: url(#man-10);
+      
+        stroke-dasharray: 70;
+        animation-name: draw-man-10;
+      }
+      @keyframes draw-man-10 {
+        0%,
+        75% {
+          stroke-dashoffset: 70;
+        }
+      
+        80% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-11 {
+        clip-path: url(#man-11);
+      
+        stroke-dasharray: 70;
+        animation-name: draw-man-11;
+      }
+      @keyframes draw-man-11 {
+        0%,
+        80% {
+          stroke-dashoffset: 70;
+        }
+      
+        85% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-12 {
+        clip-path: url(#man-12);
+      
+        stroke-dasharray: 100;
+        animation-name: draw-man-12;
+      }
+      @keyframes draw-man-12 {
+        0%,
+        85% {
+          stroke-dashoffset: 100;
+        }
+      
+        90% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-13 {
+        clip-path: url(#man-13);
+      
+        stroke-dasharray: 190;
+        animation-name: draw-man-13;
+      }
+      @keyframes draw-man-13 {
+        0%,
+        90% {
+          stroke-dashoffset: 190;
+        }
+      
+        95% {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .line-man-14 {
+        clip-path: url(#man-14);
+      
+        stroke-dasharray: 250;
+        animation-name: draw-man-14;
+      }
+      @keyframes draw-man-14 {
+        0%,
+        95% {
+          stroke-dashoffset: 250;
+        }
+      
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }

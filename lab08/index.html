@@ -31,7 +31,7 @@
 
         .pen {
           fill: none;
-          stroke: #b396db;
+          stroke: #f4a9f7;
           stroke-width: 12;
           stroke-linecap: round;
           stroke-linejoin: round;
@@ -43,7 +43,7 @@
         }
 
     </style>
-    <script src="http://d3js.org/d3.v6.min.js" charset="utf-8"></script>
+    <script src="https://d3js.org/d3.v6.min.js" charset="utf-8"></script>
 </head>
 <body>
     <h1>
@@ -61,46 +61,43 @@
     	</ul>
     </div>
 
-    <div id="pen-display-area"></div>
     <div>
       展示區 (姓名)
       <hr>
-      <img width="256" src="./uni5F90_FZSJSK--GBK1-0.svg">
-      <img width="256" src="./uni800C_FZSJSK--GBK1-0.svg">
-      <img width="256" src="./uni6F2B_FZSJSK--GBK1-0.svg">
+      <img width="256" src="./hsu.svg">
+      <img width="256" src="./erh.svg">
+      <img width="256" src="./man.svg">
     </div>
 
-    <div>
-      Drag and Drop 展示區 (接收任何SVG)
-    </div>
+    <div id="pen-display-area"></div>
     
     <script type="text/javascript">
       // Your beautiful D3 code will go here
-      d3.xml("yang-1.svg")
+      d3.xml("hsu-2.svg")
         .then(data => {
           d3.select("#pen-display-area").node().append(data.documentElement)
           d3.select("#pen-display-area")
             .select("svg")
             .attr("width", 256)
-            .attr("id", "yang")
+            .attr("id", "hsu")
         });
 
-      d3.xml("chen-1.svg")
+      d3.xml("erh-2.svg")
         .then(data => {
           d3.select("#pen-display-area").node().append(data.documentElement)
           d3.select("#pen-display-area")
             .selectAll("svg")
             .attr("width", 256)
-            .attr("id", "chen")
+            .attr("id", "erh")
         });
 
-      d3.xml("yu-1.svg")
+      d3.xml("man-2.svg")
         .then(data => {
           d3.select("#pen-display-area").node().append(data.documentElement)
           d3.select("#pen-display-area")
             .selectAll("svg")
             .attr("width", 256)
-            .attr("id", "yu")
+            .attr("id", "man")
         });
     </script>
   </html>
